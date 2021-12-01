@@ -150,7 +150,7 @@ footer {
     margin-bottom: 10px;
 }
 .content-foo a:hover {
-    border-bottom: 2px solid #ffffff;
+    color: #af20d3;
 }
 .content-foom p {
     color: white;
