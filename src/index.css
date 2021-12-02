@@ -6,6 +6,18 @@
 body {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+.Portada {
+    /* background-color: #414141;*/
+    width: 100%;
+    height: 900px;
+
+    background: #373b44;
+    background: url(../assets/Portada3.png); /* Chrome 10-25, Safari 5.1-6 */
+    background: url(../assets/Portada3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 
 .main {
     padding: 60px 0;
@@ -20,11 +32,12 @@ body {
     height: 900px;
 
     background: #373b44;
-    background: -webkitlinear-gradient(to right, hsla(222, 11%, 24%, 0.308), hsla(217, 73%, 46%, 0.302)), url(../assets/Portada.png); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkitlinear-gradient(to right, hsla(296, 11%, 24%, 0.308), hsla(217, 73%, 46%, 0.302)), url(../assets/Portada.png); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(220, 2%, 25%, 0.301), hsla(217, 89%, 33%, 0.637)), url(../assets/Portada.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    clip-path: polygon(0 0, 80% 0%, 100% 0, 100% 88%, 51% 78%, 20% 94%, 0 85%, 0 74%);
 }
 .menu2 {
     width: 100%;
