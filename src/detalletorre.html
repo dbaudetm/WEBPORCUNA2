@@ -13,6 +13,22 @@
     </head>
     <body>
         <header class="menu2">
+            <img
+                srcset="../assets/logo.webp 5000w, ../assets/logo_big.webp 500w"
+                sizes="(max-width: 320px) 680px,
+    (max-width: 420px) 580px,
+    (max-width: 920px) 880px,
+    (max-width: 1224px) 980px,
+    (max-width: 1224px) 980px
+    "
+                src="../assets/logo.webp"
+                alt="logo"
+            />
+
+            <p>
+                PORCUNA:<br />
+                "La antigua Obulco "
+            </p>
             <nav>
                 <a href="../src/index.html">Home</a>
                 <a href="../src/Categoria.html">Categoría</a>
@@ -163,23 +179,43 @@
         <footer>
             <div class="contenedor-footer">
                 <div class="content-foo">
-                    <h4>Autor</h4>
+                    <img
+                        srcset="../assets/logo.webp 5000w"
+                        sizes="(max-width: 320px) 680px,
+                    (max-width: 420px) 580px,
+                    (max-width: 920px) 880px,
+                    (max-width: 1224px) 980px
+                    "
+                        src="../assets/logo.webp"
+                        alt="logo"
+                    />
+                </div>
+                <div class="content-foo">
+                    <h4>Lista Url:</h4>
+                    <p><a href="../src/index.html">Home</a></p>
+                    <p><a href="../src/Categoria.html">Categoría</a></p>
+                    <p><a href="../src/detalletorre.html">Torre Boabdil</a></p>
+                    <p><a href="../src/detallecerrilloblanco.html">Cerrillo blanco</a></p>
+                    <p><a href="../src/detallecasadepiedra.html">Casa de piedra</a></p>
+                    <p><a href="../src/detalleanfiteatro.html">Anfiteatro</a></p>
+                    <p><a href="../src/detalleobrasdearte.html">Obras de arte</a></p>
+                    <p><a href="../src/presentacion.html">Presentación</a></p>
+                    <p><a href="../src/enlaces.html">Enlaces</a></p>
+                </div>
+                <div class="content-foo">
+                    <h4>Autor::</h4>
                     <p>David Baudet Moreno</p>
                 </div>
                 <div class="content-foo">
-                    <h4>Sitio oficial</h4>
-                    <p>Porcuna</p>
+                    <h4>oficial</h4>
+
+                    <a href="http://www.deporcuna.com/">Porcuna</a>
                 </div>
                 <div class="content-foo">
                     <h4>Clima:</h4>
-                    <p><span class="counter"></span></p>
 
-                    <div class="container">
-                        <div id="weatherContainer">
-                            <p id="temp">9°</p>
-                            <p id="main">Cielo despejado</p>
-                        </div>
-                    </div>
+                    <p id="temp">9°</p>
+                    <p id="main">Cielo despejado</p>
                 </div>
             </div>
         </footer>
