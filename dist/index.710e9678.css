@@ -25,6 +25,85 @@ body {
     margin: auto;
     overflow: hidden;
 }
+.transicion {
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    transition: color 2s ease-out;
+}
+.transicion:hover {
+    color: #af20d3;
+    cursor: pointer;
+}
+@-webkit-keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+        color: #af20d3;
+    }
+    100% {
+        transform: scale(1);
+        color: #080808;
+    }
+}
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+        color: #af20d3;
+    }
+    100% {
+        transform: scale(1);
+        color: #080808;
+    }
+}
+blockquote {
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-name: animacionCita;
+            animation-name: animacionCita;
+}
+@-webkit-keyframes animacionCita {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+@keyframes animacionCita {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.portafolio span {
+    -webkit-animation: animacionCita 2s;
+            animation: animacionCita 2s;
+    transform: scale(1);
+    color: #080808;
+}
+.portafolio span:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    color: #af20d3;
+}
 .menu {
     width: 100%;
     height: 900px;

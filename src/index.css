@@ -27,6 +27,67 @@ body {
     overflow: hidden;
 }
 
+.transicion {
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 10px;
+
+    -webkit-transition: color 2s ease-out;
+    -moz-transition: color 2s ease-out;
+    -o-transition: color 2s ease-out;
+    transition: color 2s ease-out;
+}
+
+.transicion:hover {
+    color: #af20d3;
+    cursor: pointer;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+        color: #af20d3;
+    }
+    100% {
+        transform: scale(1);
+        color: #080808;
+    }
+}
+
+blockquote {
+    animation-duration: 5s;
+    animation-name: animacionCita;
+}
+
+@keyframes animacionCita {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.portafolio span {
+    animation: animacionCita 2s;
+    transform: scale(1);
+    color: #080808;
+}
+
+.portafolio span:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    color: #af20d3;
+}
+
 .menu {
     width: 100%;
     height: 900px;
