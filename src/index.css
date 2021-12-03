@@ -43,22 +43,6 @@ body {
     cursor: pointer;
 }
 
-@keyframes bounceIn {
-    0% {
-        transform: scale(0.1);
-        opacity: 0;
-    }
-    60% {
-        transform: scale(1.2);
-        opacity: 1;
-        color: #af20d3;
-    }
-    100% {
-        transform: scale(1);
-        color: #080808;
-    }
-}
-
 blockquote {
     animation-duration: 5s;
     animation-name: animacionCita;
@@ -77,7 +61,6 @@ blockquote {
 }
 
 .portafolio span {
-    animation: animacionCita 2s;
     transform: scale(1);
     color: #080808;
 }
@@ -86,6 +69,43 @@ blockquote {
     transform: scale(1.2);
     opacity: 1;
     color: #af20d3;
+}
+
+.hover-galeria {
+    -webkit-animation: mostrar 4s linear;
+    -moz-animation: mostrar 4s linear;
+    animation: mostrar 4s linear;
+}
+@-moz-keyframes mostrar {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes mostrar {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes mostrar {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.realzar {
+    animation: realzar 10s linear;
+    font-weight: bold;
+}
+
+@keyframes realzar {
+    from {
+        color: #af20d3;
+    }
+
+    to {
+        color: #080808;
+    }
 }
 
 .menu {

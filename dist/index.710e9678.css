@@ -35,36 +35,6 @@ body {
     color: #af20d3;
     cursor: pointer;
 }
-@-webkit-keyframes bounceIn {
-    0% {
-        transform: scale(0.1);
-        opacity: 0;
-    }
-    60% {
-        transform: scale(1.2);
-        opacity: 1;
-        color: #af20d3;
-    }
-    100% {
-        transform: scale(1);
-        color: #080808;
-    }
-}
-@keyframes bounceIn {
-    0% {
-        transform: scale(0.1);
-        opacity: 0;
-    }
-    60% {
-        transform: scale(1.2);
-        opacity: 1;
-        color: #af20d3;
-    }
-    100% {
-        transform: scale(1);
-        color: #080808;
-    }
-}
 blockquote {
     -webkit-animation-duration: 5s;
             animation-duration: 5s;
@@ -94,8 +64,6 @@ blockquote {
     }
 }
 .portafolio span {
-    -webkit-animation: animacionCita 2s;
-            animation: animacionCita 2s;
     transform: scale(1);
     color: #080808;
 }
@@ -103,6 +71,43 @@ blockquote {
     transform: scale(1.2);
     opacity: 1;
     color: #af20d3;
+}
+.hover-galeria {
+    -webkit-animation: mostrar 4s linear;
+    animation: mostrar 4s linear;
+}
+@-webkit-keyframes mostrar {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes mostrar {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.realzar {
+    -webkit-animation: realzar 10s linear;
+            animation: realzar 10s linear;
+    font-weight: bold;
+}
+@-webkit-keyframes realzar {
+    from {
+        color: #af20d3;
+    }
+
+    to {
+        color: #080808;
+    }
+}
+@keyframes realzar {
+    from {
+        color: #af20d3;
+    }
+
+    to {
+        color: #080808;
+    }
 }
 .menu {
     width: 100%;
