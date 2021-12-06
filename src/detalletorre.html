@@ -117,7 +117,34 @@
                             <!-- Full-width images with number and caption text -->
                             <div class="mySlides fade">
                                 <div class="numbertext">1 / 9</div>
-                                <img src="../assets/torre/torre1.png" alt="torre1" style="width: 100%" />
+
+                                <picture
+                                    ><source
+                                        media="(max-width: 25em)"
+                                        srcset="
+                                            ../assets/torre/torre1_phone_320.png 201x,
+                                            ../assets/torre/torre1_phone_420.png 202x,
+                                            ../assets/torre/torre1_phone_640.png 203x
+                                        "
+                                    />
+                                    <source
+                                        media="(max-width: 48em)"
+                                        srcset="
+                                            ../assets/torre/torre1_tablet_768.png  201x,
+                                            ../assets/torre/torre1_tablet_1280.png 202x,
+                                            ../assets/torre/torre1_tablet_2048.png 203x
+                                        "
+                                    />
+                                    <source
+                                        media="(max-width: 75em)"
+                                        srcset="
+                                            ../assets/torre/torre1_desktop_1200.png 201x,
+                                            ../assets/torre/torre1_desktop_1600.png 202x,
+                                            ../assets/torre/torre1_desktop_1920.png 203x
+                                        "
+                                    />
+                                    <img src="../assets/torre/torre1.png" alt="Torre1" title="Torre1" style="width: 100%" />
+                                </picture>
                             </div>
                             <div class="mySlides fade">
                                 <div class="numbertext">2 / 9</div>
