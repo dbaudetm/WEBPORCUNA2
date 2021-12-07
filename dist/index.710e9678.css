@@ -14,9 +14,94 @@ body {
     background: #373b44;
     background: url(Portada3.aeadaab3.png); /* Chrome 10-25, Safari 5.1-6 */
     background: url(Portada3.aeadaab3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+}
+@media (max-width: 25em) {
+    .Portada {
+        background-image: -webkit-image-set(
+            url(Portada3_phone_320.8cad8d02.png) 201x,
+            url(Portada3_phone_420.007fdf8d.png) 202x,
+            url(Portada3_phone_640.0eb845cc.png) 203x
+        );
+        background-image: image-set(
+            url(Portada3_phone_320.8cad8d02.png) 201x,
+            url(Portada3_phone_420.007fdf8d.png) 202x,
+            url(Portada3_phone_640.0eb845cc.png) 203x
+        );
+    }
+}
+@media (max-width: 48em) {
+    .Portada {
+        background-image: -webkit-image-set(
+            url(Portada3_tablet_768.eb5f6a1e.png) 201x,
+            url(Portada3_tablet_1280.c6ded6f4.png) 202x,
+            url(Portada3_tablet_2048.221e3944.png) 203x
+        );
+        background-image: image-set(
+            url(Portada3_tablet_768.eb5f6a1e.png) 201x,
+            url(Portada3_tablet_1280.c6ded6f4.png) 202x,
+            url(Portada3_tablet_2048.221e3944.png) 203x
+        );
+    }
+}
+@media (max-width: 75em) {
+    .Portada {
+        background-image: -webkit-image-set(
+            url(Portada3_desktop_1200.2fd34864.png) 201x,
+            url(Portada3_desktop_1600.8cfc6dba.png) 202x,
+            url(Portada3_desktop_1920.9e6fb07e.png) 203x
+        );
+        background-image: image-set(
+            url(Portada3_desktop_1200.2fd34864.png) 201x,
+            url(Portada3_desktop_1600.8cfc6dba.png) 202x,
+            url(Portada3_desktop_1920.9e6fb07e.png) 203x
+        );
+    }
+}
+@media (max-width: 25em) {
+    .menu {
+        background-image: -webkit-image-set(
+            url(Portada_phone_320.9bfed0cf.png) 201x,
+            url(Portada_phone_420.1df2f846.png) 202x,
+            url(Portada_phone_640.303f8ef0.png) 203x
+        );
+        background-image: image-set(
+            url(Portada_phone_320.9bfed0cf.png) 201x,
+            url(Portada_phone_420.1df2f846.png) 202x,
+            url(Portada_phone_640.303f8ef0.png) 203x
+        );
+    }
+}
+@media (max-width: 48em) {
+    .menu {
+        background-image: -webkit-image-set(
+            url(Portada_tablet_768.96ba9289.png) 201x,
+            url(Portada_tablet_1280.2c7e6f6a.png) 202x,
+            url(Portada_tablet_2048.2fe08ff1.png) 203x
+        );
+        background-image: image-set(
+            url(Portada_tablet_768.96ba9289.png) 201x,
+            url(Portada_tablet_1280.2c7e6f6a.png) 202x,
+            url(Portada_tablet_2048.2fe08ff1.png) 203x
+        );
+    }
+}
+@media (max-width: 75em) {
+    .menu {
+        background-image: -webkit-image-set(
+            url(Portada_desktop_1200.43213ce4.png) 201x,
+            url(Portada_desktop_1600.f293d93f.png) 202x,
+            url(Portada_desktop_1920.b7f88869.png) 203x
+        );
+        background-image: image-set(
+            url(Portada_desktop_1200.43213ce4.png) 201x,
+            url(Portada_desktop_1600.f293d93f.png) 202x,
+            url(Portada_desktop_1920.b7f88869.png) 203x
+        );
+    }
 }
 .main {
     padding: 60px 0;

@@ -14,9 +14,100 @@ body {
     background: #373b44;
     background: url(../assets/Portada3.png); /* Chrome 10-25, Safari 5.1-6 */
     background: url(../assets/Portada3.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+}
+
+@media (max-width: 25em) {
+    .Portada {
+        background-image: -webkit-image-set(
+            url(../assets/Portada3_phone_320.png) 201x,
+            url(../assets/Portada3_phone_420.png) 202x,
+            url(../assets/Portada3_phone_640.png) 203x
+        );
+        background-image: image-set(
+            url(../assets/Portada3_phone_320.png) 201x,
+            url(../assets/Portada3_phone_420.png) 202x,
+            url(../assets/Portada3_phone_640.png) 203x
+        );
+    }
+}
+
+@media (max-width: 48em) {
+    .Portada {
+        background-image: -webkit-image-set(
+            url(../assets/Portada3_tablet_768.png) 201x,
+            url(../assets/Portada3_tablet_1280.png) 202x,
+            url(../assets/Portada3_tablet_2048.png) 203x
+        );
+        background-image: image-set(
+            url(../assets/Portada3_tablet_768.png) 201x,
+            url(../assets/Portada3_tablet_1280.png) 202x,
+            url(../assets/Portada3_tablet_2048.png) 203x
+        );
+    }
+}
+
+@media (max-width: 75em) {
+    .Portada {
+        background-image: -webkit-image-set(
+            url(../assets/Portada3_desktop_1200.png) 201x,
+            url(../assets/Portada3_desktop_1600.png) 202x,
+            url(../assets/Portada3_desktop_1920.png) 203x
+        );
+        background-image: image-set(
+            url(../assets/Portada3_desktop_1200.png) 201x,
+            url(../assets/Portada3_desktop_1600.png) 202x,
+            url(../assets/Portada3_desktop_1920.png) 203x
+        );
+    }
+}
+
+@media (max-width: 25em) {
+    .menu {
+        background-image: -webkit-image-set(
+            url(../assets/Portada_phone_320.png) 201x,
+            url(../assets/Portada_phone_420.png) 202x,
+            url(../assets/Portada_phone_640.png) 203x
+        );
+        background-image: image-set(
+            url(../assets/Portada_phone_320.png) 201x,
+            url(../assets/Portada_phone_420.png) 202x,
+            url(../assets/Portada_phone_640.png) 203x
+        );
+    }
+}
+
+@media (max-width: 48em) {
+    .menu {
+        background-image: -webkit-image-set(
+            url(../assets/Portada_tablet_768.png) 201x,
+            url(../assets/Portada_tablet_1280.png) 202x,
+            url(../assets/Portada_tablet_2048.png) 203x
+        );
+        background-image: image-set(
+            url(../assets/Portada_tablet_768.png) 201x,
+            url(../assets/Portada_tablet_1280.png) 202x,
+            url(../assets/Portada_tablet_2048.png) 203x
+        );
+    }
+}
+
+@media (max-width: 75em) {
+    .menu {
+        background-image: -webkit-image-set(
+            url(../assets/Portada_desktop_1200.png) 201x,
+            url(../assets/Portada_desktop_1600.png) 202x,
+            url(../assets/Portada_desktop_1920.png) 203x
+        );
+        background-image: image-set(
+            url(../assets/Portada_desktop_1200.png) 201x,
+            url(../assets/Portada_desktop_1600.png) 202x,
+            url(../assets/Portada_desktop_1920.png) 203x
+        );
+    }
 }
 
 .main {
