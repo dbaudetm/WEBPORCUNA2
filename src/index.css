@@ -22,91 +22,41 @@ body {
 
 @media (max-width: 25em) {
     .Portada {
-        background-image: -webkit-image-set(
-            url(../assets/Portada3_phone_320.png) 201x,
-            url(../assets/Portada3_phone_420.png) 202x,
-            url(../assets/Portada3_phone_640.png) 203x
-        );
-        background-image: image-set(
-            url(../assets/Portada3_phone_320.png) 201x,
-            url(../assets/Portada3_phone_420.png) 202x,
-            url(../assets/Portada3_phone_640.png) 203x
-        );
+        background-image: url(../assets/Portada3_phone_320.png);
+    }
+    .svg {
+        height: 100px;
+    }
+
+    .menu {
+        background-image: url(../assets/Portada_phone_320.png);
     }
 }
 
 @media (max-width: 48em) {
     .Portada {
-        background-image: -webkit-image-set(
-            url(../assets/Portada3_tablet_768.png) 201x,
-            url(../assets/Portada3_tablet_1280.png) 202x,
-            url(../assets/Portada3_tablet_2048.png) 203x
-        );
-        background-image: image-set(
-            url(../assets/Portada3_tablet_768.png) 201x,
-            url(../assets/Portada3_tablet_1280.png) 202x,
-            url(../assets/Portada3_tablet_2048.png) 203x
-        );
+        background-image: url(../assets/Portada3_tablet_768.png);
+    }
+    .svg {
+        height: 200px;
+    }
+
+    .menu {
+        background-image: url(../assets/Portada_tablet_768.png);
     }
 }
 
 @media (max-width: 75em) {
     .Portada {
-        background-image: -webkit-image-set(
-            url(../assets/Portada3_desktop_1200.png) 201x,
-            url(../assets/Portada3_desktop_1600.png) 202x,
-            url(../assets/Portada3_desktop_1920.png) 203x
-        );
-        background-image: image-set(
-            url(../assets/Portada3_desktop_1200.png) 201x,
-            url(../assets/Portada3_desktop_1600.png) 202x,
-            url(../assets/Portada3_desktop_1920.png) 203x
-        );
+        background-image: url(../assets/Portada3_desktop_1200.png);
     }
-}
 
-@media (max-width: 25em) {
-    .menu {
-        background-image: -webkit-image-set(
-            url(../assets/Portada_phone_320.png) 201x,
-            url(../assets/Portada_phone_420.png) 202x,
-            url(../assets/Portada_phone_640.png) 203x
-        );
-        background-image: image-set(
-            url(../assets/Portada_phone_320.png) 201x,
-            url(../assets/Portada_phone_420.png) 202x,
-            url(../assets/Portada_phone_640.png) 203x
-        );
+    .svg {
+        height: 300px;
     }
-}
 
-@media (max-width: 48em) {
     .menu {
-        background-image: -webkit-image-set(
-            url(../assets/Portada_tablet_768.png) 201x,
-            url(../assets/Portada_tablet_1280.png) 202x,
-            url(../assets/Portada_tablet_2048.png) 203x
-        );
-        background-image: image-set(
-            url(../assets/Portada_tablet_768.png) 201x,
-            url(../assets/Portada_tablet_1280.png) 202x,
-            url(../assets/Portada_tablet_2048.png) 203x
-        );
-    }
-}
-
-@media (max-width: 75em) {
-    .menu {
-        background-image: -webkit-image-set(
-            url(../assets/Portada_desktop_1200.png) 201x,
-            url(../assets/Portada_desktop_1600.png) 202x,
-            url(../assets/Portada_desktop_1920.png) 203x
-        );
-        background-image: image-set(
-            url(../assets/Portada_desktop_1200.png) 201x,
-            url(../assets/Portada_desktop_1600.png) 202x,
-            url(../assets/Portada_desktop_1920.png) 203x
-        );
+        background-image: url(../assets/Portada_desktop_1200.png);
     }
 }
 
@@ -138,6 +88,7 @@ body {
 }
 
 .svg {
+    height: 30%;
     animation: translate 3s ease infinite;
 }
 
